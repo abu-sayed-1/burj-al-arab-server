@@ -71,9 +71,9 @@ client.connect(err => {
   })
 
 });
-// deploy ^ korar somoy ei code gula^ li khte hobe
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+// deploy ^ korar somoy ei code gula^ li khte hobe
 
 app.listen(process.env.PORT || port)
