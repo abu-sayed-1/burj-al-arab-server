@@ -67,6 +67,7 @@ client.connect(err => {
     else {
       res.status(401).send('un-authorized access')
     }
+// deploy ^ korar somoy ei code gula^ li khte hobe
 
   })
 
@@ -74,6 +75,4 @@ client.connect(err => {
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-// deploy ^ korar somoy ei code gula^ li khte hobe
-
 app.listen(process.env.PORT || port)
